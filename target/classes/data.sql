@@ -1,0 +1,11 @@
+insert into employee (email,first_name,last_name) values ('nikitha@gl.com','nikitha','chevala');
+insert into employee (email,first_name,last_name) values ('kranthi@gl.com','kranthi','potharla');
+insert into employee (email,first_name,last_name) values ('satyam@gl.com','satyam','gupta');
+insert into employee (email,first_name,last_name) values ('sharath@gl.com','sharath','chandra');
+insert into employee (email,first_name,last_name) values ('suraj@gmail.com','suraj','saxena');
+insert into employee (email,first_name,last_name) values ('ankitha@gl.com','ankitha','konanki');
+insert into users (user_name,password) values ('kranthi','$2a$12$ISGwm.2Jnm4.ip3cNOSbf.2JvbAzrNaujI4RZhnzrmY.6jy7atfGa');
+insert into users (user_name,password) values ('kumar','$2a$12$Em/hSqccq8xe8qMcqW5nE.WwACqtcPp6Oms05zLCI4.dBxj7XaUJS');
+insert into role (name) values ('ADMIN');
+insert into role (name) values ('USER');
+insert into user_roles values (1,1),(2,2);
